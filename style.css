@@ -1,0 +1,90 @@
+body {
+  background: #eee !important;
+
+  transition: background-color 1s linear;
+}
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 30px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+/*for the error animation when log*/
+.ahashakeheartache {
+		-webkit-animation: kf_shake 0.4s 1 linear;
+		-moz-animation: kf_shake 0.4s 1 linear;
+		-o-animation: kf_shake 0.4s 1 linear;
+	}
+	@-webkit-keyframes kf_shake {
+		0% { -webkit-transform: translate(30px); }
+		20% { -webkit-transform: translate(-30px); }
+		40% { -webkit-transform: translate(15px); }
+		60% { -webkit-transform: translate(-15px); }
+		80% { -webkit-transform: translate(8px); }
+		100% { -webkit-transform: translate(0px); }
+	}
+	@-moz-keyframes kf_shake {
+		0% { -moz-transform: translate(30px); }
+		20% { -moz-transform: translate(-30px); }
+		40% { -moz-transform: translate(15px); }
+		60% { -moz-transform: translate(-15px); }
+		80% { -moz-transform: translate(8px); }
+		100% { -moz-transform: translate(0px); }
+	}
+	@-o-keyframes kf_shake {
+		0% { -o-transform: translate(30px); }
+		20% { -o-transform: translate(-30px); }
+		40% { -o-transform: translate(15px); }
+		60% { -o-transform: translate(-15px); }
+		80% { -o-transform: translate(8px); }
+		100% { -o-origin-transform: translate(0px); }
+	}
+
+
+.rs-exam .right {
+  color: #bada55;
+}
+.rs-exam .wrong {
+  color: #d11d05;
+}
+
+/* for the logout modal */
+/*
+#logout {
+top:30%;
+outline: none;
+}*/
+
+/*
+@media screen and (min-width: 750px) {
+	
+	#logout .modal-dialog  {width:15%;}
+
+}*/

@@ -1,0 +1,21 @@
+<div class="wrapper">
+
+<form name="myForm" class="form-signin" ng-class="{ahashakeheartache:wrongUser}" ng-submit="login()">
+
+	<table style="width:100%" class="form-signin-heading">
+	  <tr>
+		<th><img class="w3-card" src="images/ds.png" width="110" height="90"></th>
+		<th><h2>Login</h2></th>
+	  </tr>
+	</table>
+
+	<input name="user" type="text" class="form-control" placeholder="name" ng-model="user" required/>
+
+	<br>
+	<button type="submit" class="w3-button w3-card w3-teal w3-block"><i class="fa fa-spinner fa-lg fa-pulse" ng-if="loading"></i> Login</button>
+	<br>
+	<!-- shows a error message if none-existant username is entered -->
+	<div ng-show="wrongUser"><center class="w3-text-red">Wrong username.</center></div>
+</form>
+
+</div>
